@@ -27,7 +27,7 @@ Github is used as a source control tool. Students can upload their code, compare
 * `git commit -m “message”`: Saves the changes from your local repository.
 * `git push`: Syncs to your remote repository. The list of commits and their messages can be browsed like an “edit history.”
 * `git pull`: Fetches changes from the remote repository so they can be accessed locally.
-* `git branch`: Lists all branches in the repository. Executing git branch -a will show all branches related to your repository, including remote ones. 
+* `git branch`: Lists all branches in the repository. Executing `git branch -a` will show all branches related to your repository, including remote ones. 
 * `git checkout <branch>`: Switches to the branch that is named 
 * `git merge`: Merges changes from one branch into another.
 * `git status`: Shows the status of your local repository. This can be used to view your commits and changes. 
@@ -60,7 +60,7 @@ Most students use Windows or MacOS as their operating system, while the CMU mach
 
 1. `ls`: Lists files and directories in the current directory.
 2. `cd`: Changes directory. For example, `cd <directory-name>` will move to the specified directory.
-    1. `cd ..: `Moves up a directory
+    1. `cd ..`: Moves up a directory
 3. `mkdir`: Creates a new directory. For example, `mkdir <directory-name>` will create a new directory with the specified name.
 4. `rm`: Removes a file or directory. For example, `rm <file-name>` will remove the specified file.
 5. `cp`: Copies a file or directory. For example, `cp <source-file> <destination-file>` will copy the source file to the destination file.
