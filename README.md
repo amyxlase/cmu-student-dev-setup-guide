@@ -107,7 +107,7 @@ Here are some potential configs
     GSSAPIDelegateCredentials yes
 
     
-    ![image](https://user-images.githubusercontent.com/31298710/231563032-0d03ac0c-7151-4476-a673-1af92857f2b0.png)
+   ![image](https://user-images.githubusercontent.com/31298710/231563032-0d03ac0c-7151-4476-a673-1af92857f2b0.png)
 
 
 # **BASHRC (All Classes)**
