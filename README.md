@@ -131,10 +131,10 @@ GDB is a debugger for the C language that can be used to track states in your co
 
 1. `gdb`: Starts the GDB debugger.
 2. `run`: Runs the program being debugged.
-3. `break`: Sets a breakpoint at a specific line or function in the code. For example, `break &lt;line-number>` or `break &lt;function-name>`.
+3. `break`: Sets a breakpoint at a specific line or function in the code. For example, `break <line-number>` or `break <function-name>`.
 4. `next`: Executes the next line of code.
 5. `step`: Steps into a function call.
-6. `print`: Displays the value of a variable. For example, `print &lt;variable-name>`.
+6. `print`: Displays the value of a variable. For example, `print <variable-name>`.
 7. `continue`: Continues execution until the next breakpoint or the program ends.
 8. `quit`: Exits the GDB debugger.
 
