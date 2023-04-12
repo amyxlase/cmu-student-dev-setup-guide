@@ -9,11 +9,11 @@ Incoming CMU students in CS, ECE, and IS might not be familiar with common termi
 
 
 1. Open a terminal window on your computer. This may be called Terminal or Command Prompt depending on your operating system.
-2. Your class will instruct you to connect to either the AFS server, GHC cluster machines, or Shark machines. Please execute the command for the corresponding machine. Replace <andrewID> with your actual Andrew ID.
+2. Your class will instruct you to connect to either the AFS server, GHC cluster machines, or Shark machines. Please execute the command for the corresponding machine. Replace `<andrewID>` with your actual Andrew ID.
     1. AFS: **ssh<andrewID>@unix.andrew.cmu.edu**
     2. GHC: **ssh <andrewID>@ghc{35-42}.ghc.andrew.cmu.edu**
         1.  Replace {35-42} with any number in the range. For example, ssh andrewid@ghc35.ghc.andrew.cmu.edu
-    3. Shark: **ssh >andrewID>@shark.ics.cs.cmu.edu**
+    3. Shark: **ssh `<andrewID>`@shark.ics.cs.cmu.edu**
 3. Enter your Andrew password when prompted and press Enter. After a delay, you will be connected. 
 
 # **GITHUB COMMANDS & PR REQUESTS**
