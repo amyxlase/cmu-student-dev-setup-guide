@@ -44,8 +44,6 @@ Github is used as a source control tool. Students can upload their code, compare
 
 # **PYTHON DEBUGGER (15-281, 10-315)**
 
-#ipdb
-
 To use this python debugger, import ipdb at the top of your file and place this line where you would like to stop your code:
 
 `ipdb.set_trace()`
@@ -66,8 +64,6 @@ Then run your script. Your script will run until this line is executed, and it w
 
 # **EXECUTING COMMON TERMINAL COMMANDS (All Classes)**
 
-#terminal
-
 Most students use Windows or MacOS as their operating system, while the CMU machines all use Linux. This section provides a brief overview of commands that can be used on CMU’s machines to navigate and manage your homework files. 
 
 
@@ -84,7 +80,6 @@ Most students use Windows or MacOS as their operating system, while the CMU mach
 9. `ln -s <target> <source>`: Symlink one directory with another
 
 # **SSH CONFIG (All Classes)**
-#config
 
 If you have .ssh folder: 
 
@@ -127,8 +122,6 @@ Here are some potential configs
 
 # **BASHRC (All Classes)**
 
-#bashrc
-
 The .bashrc or the .zshrc is a script file that is automatically run every time you open your shell. In this file, you can include helpful environment variables and aliases.
 
 
@@ -138,8 +131,6 @@ The .bashrc or the .zshrc is a script file that is automatically run every time 
 * To source the .bashrc: source ~/.bashrc
 
 # **Using GDB: (All Classes)**
-
-#gdb
 
 GDB is a debugger for the C language that can be used to track states in your code. Here are some basic GDB commands:
 
@@ -157,8 +148,6 @@ GDB is a debugger for the C language that can be used to track states in your co
 By following these steps and using these commands, you should be able to connect to the AFS and GHC SSH servers, execute common terminal commands, and use GDB for debugging. If you encounter any issues or have further questions, refer to the documentation of your specific technical course or seek assistance from your instructors or classmates.
 
 # **vim: (All Classes)**
-
-#vim
 
 Normal mode: In Normal mode, Vim is in its default state where you can navigate and manipulate text. You can move your cursor, delete, copy, paste, search, and replace text, among other operations. Normal mode is designed for efficient text editing and navigation without inserting or modifying text directly.
 
