@@ -152,56 +152,56 @@ Command-line mode: Command-line mode is used for executing commands and performi
 
 Changing between modes / General
 
-Esc: Exit insert mode and return to normal mode
+`Esc`: Exit insert mode and return to normal mode
 
-:w: Save changes
+`:w`: Save changes
 
-:q: Quit (close) Vim
+`:q`: Quit (close) Vim
 
-:wq or :x: Save changes and quit Vim
+`:wq` or `:x`: Save changes and quit Vim
 
-:q! or :x!: Quit Vim without saving changes
+`:q!` or `:x!`: Quit Vim without saving changes
 
-:w: Save changes
+`:w`: Save changes
 
 Normal mode navigation:
 
-h: Move cursor left
+`h`: Move cursor left
 
-j: Move cursor down
+`j`: Move cursor down
 
-k: Move cursor up
+`k`: Move cursor up
 
-l: Move cursor right
+`l`: Move cursor right
 
-w: Move to the beginning of the next word
+`w`: Move to the beginning of the next word
 
-b: Move to the beginning of the previous word
+`b`: Move to the beginning of the previous word
 
-gg: Move to the first line of the file
+`gg`: Move to the first line of the file
 
-G: Move to the last line of the file
+`G`: Move to the last line of the file
 
-:n: Move to a specific line number (replace "n" with the line number)
+`:n`: Move to a specific line number (replace "n" with the line number)
 
 Editing:
 
-i: Enter insert mode (insert before the cursor)
+`i`: Enter insert mode (insert before the cursor)
 
-a: Enter insert mode (insert after the cursor)
+`a`: Enter insert mode (insert after the cursor)
 
-o: Create a new line below the current line and enter insert mode
+`o`: Create a new line below the current line and enter insert mode
 
-O: Create a new line above the current line and enter insert mode
+`O`: Create a new line above the current line and enter insert mode
 
-x: Delete character under the cursor
+`x`: Delete character under the cursor
 
-dd: Delete the entire line
+`dd`: Delete the entire line
 
-yy: Copy the entire current line
+`yy`: Copy the entire current line
 
-p: Paste
+`p`: Paste
 
-u: Undo the last change
+`u`: Undo the last change
 
-Ctrl + r: Redo the last undone change
+`Ctrl + r`: Redo the last undone change
