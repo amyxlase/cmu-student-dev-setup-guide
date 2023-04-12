@@ -6,16 +6,16 @@ Incoming CMU students in CS, ECE, and IS might not be familiar with common termi
 
 # **Table of Contents**
 
-1. [SSH to AFS, GHC, and Shark Machines](#SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes))
-2. [Github Commands](#git)
-3. [Python Debugger](#ipdb)
-4. [Executing Common Terminal Commands](#terminal)
-5. [SSH Configuration](#config)
-6. [Bashrc](#bashrc)
-7. [Using GDB](#gdb)
-8. [Vim](#vim)
+1. [SSH to AFS, GHC, and Shark Machines](#ssh-to-afs-ghc-cluster-machines-or-shark-machines-through-terminal-all-classes)
+2. [Github Commands](#github-commands)
+3. [Python Debugger](#python-debugger-15-281-10-315)
+4. [Executing Common Terminal Commands](#executing-common-terminal-commands-all-classes)
+5. [SSH Configuration](#ssh-config-all-classes)
+6. [Bashrc](#bashrc-all-classes)
+7. [Using GDB](#using-gdb-all-classes)
+8. [Vim](#vim-all-classes)
 
-# **SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes)**
+### **SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes)**
 
 1. Open a terminal window on your computer. This may be called Terminal or Command Prompt depending on your operating system.
 2. Your class will instruct you to connect to either the AFS server, GHC cluster machines, or Shark machines. Please execute the command for the corresponding machine. Replace `<andrewID>` with your actual Andrew ID.
@@ -27,7 +27,6 @@ Incoming CMU students in CS, ECE, and IS might not be familiar with common termi
 
 # **GITHUB COMMANDS**
 
-#git
 
 Github is used as a source control tool. Students can upload their code, compare changes, and revert to specific snapshots of code. These are the basic commands that a student may need.
 
