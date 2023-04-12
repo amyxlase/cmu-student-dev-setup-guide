@@ -15,7 +15,7 @@ Incoming CMU students in CS, ECE, and IS might not be familiar with common termi
 7. [Using GDB](#using-gdb-all-classes)
 8. [Vim](#vim-all-classes)
 
-### **SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes)**
+# **SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes)**
 
 1. Open a terminal window on your computer. This may be called Terminal or Command Prompt depending on your operating system.
 2. Your class will instruct you to connect to either the AFS server, GHC cluster machines, or Shark machines. Please execute the command for the corresponding machine. Replace `<andrewID>` with your actual Andrew ID.
