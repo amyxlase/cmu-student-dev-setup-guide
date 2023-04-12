@@ -6,7 +6,7 @@ Incoming CMU students in CS, ECE, and IS might not be familiar with common termi
 
 # **Table of Contents**
 
-1. [SSH to AFS, GHC, and Shark Machines](#ssh)
+1. [SSH to AFS, GHC, and Shark Machines](#SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes))
 2. [Github Commands](#git)
 3. [Python Debugger](#ipdb)
 4. [Executing Common Terminal Commands](#terminal)
@@ -16,8 +16,6 @@ Incoming CMU students in CS, ECE, and IS might not be familiar with common termi
 8. [Vim](#vim)
 
 # **SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes)**
-
-#ssh
 
 1. Open a terminal window on your computer. This may be called Terminal or Command Prompt depending on your operating system.
 2. Your class will instruct you to connect to either the AFS server, GHC cluster machines, or Shark machines. Please execute the command for the corresponding machine. Replace `<andrewID>` with your actual Andrew ID.
