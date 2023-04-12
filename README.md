@@ -2,11 +2,21 @@
 
 # **Preamble**
 
-Incoming CMU students in CS, ECE, and IS might not be familiar with common terminal commands that are necessary to access and complete homework in technical courses. Students will need to SSH into the AFS, GHC, and Shark machines to access the tools provided by their courses to run and test their work. They must also use terminal commands to manage and navigate through their files. Finally, particular classes will suggest debugging tools, like the python debugger and GDB, which have their unique commands. This document will cover the most common commands that incoming students may need to learn.  
+Incoming CMU students in CS, ECE, and IS might not be familiar with common terminal commands that are necessary to access and complete homework in technical courses. Students will need to SSH into the AFS, GHC, and Shark machines to access the tools provided by their courses to run and test their work. They must also use terminal commands to manage and navigate through their files. Finally, particular classes will suggest debugging tools, like the python debugger and GDB, which have their unique commands. This document will cover the most common commands that incoming students may need to learn.
+
+# **Table of Contents**
+
+1. [SSH to AFS, GHC, and Shark Machines](#ssh)
+2. [Github Commands](#git)
+3. [Python Debugger](#ipdb)
+4. [Executing Common Terminal Commands](#terminal)
+5. [SSH Configuration](#config)
+6. [Bashrc](#bashrc)
+7. [Using GDB](#gdb)
+8. [Vim](#vim)
 
 # **SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes)**
-
-
+#ssh
 
 1. Open a terminal window on your computer. This may be called Terminal or Command Prompt depending on your operating system.
 2. Your class will instruct you to connect to either the AFS server, GHC cluster machines, or Shark machines. Please execute the command for the corresponding machine. Replace `<andrewID>` with your actual Andrew ID.
@@ -16,7 +26,8 @@ Incoming CMU students in CS, ECE, and IS might not be familiar with common termi
     3. Shark: **ssh `<andrewID>`@shark.ics.cs.cmu.edu**
 3. Enter your Andrew password when prompted and press Enter. After a delay, you will be connected. 
 
-# **GITHUB COMMANDS & PR REQUESTS**
+# **GITHUB COMMANDS**
+#git
 
 Github is used as a source control tool. Students can upload their code, compare changes, and revert to specific snapshots of code. These are the basic commands that a student may need.
 
@@ -33,6 +44,7 @@ Github is used as a source control tool. Students can upload their code, compare
 * `git status`: Shows the status of your local repository. This can be used to view your commits and changes. 
 
 # **PYTHON DEBUGGER (15-281, 10-315)**
+#ipdb
 
 To use this python debugger, import ipdb at the top of your file and place this line where you would like to stop your code:
 
@@ -53,6 +65,7 @@ Then run your script. Your script will run until this line is executed, and it w
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/31298710/231563137-57ade5e4-0892-477b-a27b-f48a986d043d.png">
 
 # **EXECUTING COMMON TERMINAL COMMANDS (All Classes)**
+#terminal
 
 Most students use Windows or MacOS as their operating system, while the CMU machines all use Linux. This section provides a brief overview of commands that can be used on CMU’s machines to navigate and manage your homework files. 
 
@@ -70,6 +83,7 @@ Most students use Windows or MacOS as their operating system, while the CMU mach
 9. `ln -s <target> <source>`: Symlink one directory with another
 
 # **SSH CONFIG (All Classes)**
+#config
 
 If you have .ssh folder: 
 
@@ -111,6 +125,7 @@ Here are some potential configs
 
 
 # **BASHRC (All Classes)**
+#bashrc
 
 The .bashrc or the .zshrc is a script file that is automatically run every time you open your shell. In this file, you can include helpful environment variables and aliases.
 
@@ -121,6 +136,7 @@ The .bashrc or the .zshrc is a script file that is automatically run every time 
 * To source the .bashrc: source ~/.bashrc
 
 # **Using GDB: (All Classes)**
+#gdb
 
 GDB is a debugger for the C language that can be used to track states in your code. Here are some basic GDB commands:
 
@@ -138,6 +154,7 @@ GDB is a debugger for the C language that can be used to track states in your co
 By following these steps and using these commands, you should be able to connect to the AFS and GHC SSH servers, execute common terminal commands, and use GDB for debugging. If you encounter any issues or have further questions, refer to the documentation of your specific technical course or seek assistance from your instructors or classmates.
 
 # **vim: (All Classes)**
+#vim
 
 Normal mode: In Normal mode, Vim is in its default state where you can navigate and manipulate text. You can move your cursor, delete, copy, paste, search, and replace text, among other operations. Normal mode is designed for efficient text editing and navigation without inserting or modifying text directly.
 
