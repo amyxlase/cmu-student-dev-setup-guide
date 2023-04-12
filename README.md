@@ -28,7 +28,7 @@ Github is used as a source control tool. Students can upload their code, compare
 * git push: Syncs to your remote repository. The list of commits and their messages can be browsed like an “edit history.”
 * git pull: Fetches changes from the remote repository so they can be accessed locally.
 * git branch: Lists all branches in the repository. Executing git branch -a will show all branches related to your repository, including remote ones. 
-* git checkout &lt;branch>: Switches to the branch that is named 
+* git checkout <branch>: Switches to the branch that is named 
 * git merge: Merges changes from one branch into another.
 * git status: Shows the status of your local repository. This can be used to view your commits and changes. 
 
@@ -55,15 +55,15 @@ Most students use Windows or MacOS as their operating system, while the CMU mach
 
 
 1. `ls`: Lists files and directories in the current directory.
-2. `cd`: Changes directory. For example, `cd &lt;directory-name>` will move to the specified directory.
+2. `cd`: Changes directory. For example, `cd <directory-name>` will move to the specified directory.
     1. `cd ..: `Moves up a directory
-3. `mkdir`: Creates a new directory. For example, `mkdir &lt;directory-name>` will create a new directory with the specified name.
-4. `rm`: Removes a file or directory. For example, `rm &lt;file-name>` will remove the specified file.
-5. `cp`: Copies a file or directory. For example, `cp &lt;source-file> &lt;destination-file>` will copy the source file to the destination file.
-6. `mv`: Moves or renames a file or directory. For example, `mv &lt;old-file-name> &lt;new-file-name>` will rename the old file to the new file name, and `mv &lt;source-file> &lt;destination-directory>` will move the source file to the specified destination directory.
-7. `cat`: Displays the contents of a file. For example, `cat &lt;file-name>` will display the contents of the specified file.
-8. `grep`: Searches for a pattern in a file or directory. For example, `grep &lt;pattern> &lt;file-name>` will search for the specified pattern in the specified file.
-9. `ln -s &lt;target> &lt;source>`: Symlink one directory with another
+3. `mkdir`: Creates a new directory. For example, `mkdir <directory-name>` will create a new directory with the specified name.
+4. `rm`: Removes a file or directory. For example, `rm <file-name>` will remove the specified file.
+5. `cp`: Copies a file or directory. For example, `cp <source-file> <destination-file>` will copy the source file to the destination file.
+6. `mv`: Moves or renames a file or directory. For example, `mv <old-file-name> <new-file-name>` will rename the old file to the new file name, and `mv <source-file> <destination-directory>` will move the source file to the specified destination directory.
+7. `cat`: Displays the contents of a file. For example, `cat <file-name>` will display the contents of the specified file.
+8. `grep`: Searches for a pattern in a file or directory. For example, `grep <pattern> <file-name>` will search for the specified pattern in the specified file.
+9. `ln -s <target> <source>`: Symlink one directory with another
 
 **SSH CONFIG**
 
