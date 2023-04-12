@@ -150,7 +150,7 @@ Insert mode: In Insert mode, you can directly input text into the file, similar 
 
 Command-line mode: Command-line mode is used for executing commands and performing operations that affect the entire file, such as saving changes, quitting Vim, and searching/replacing text. To enter Command-line mode from Normal mode, press the ":" key. Once in Command-line mode, you can type commands and press Enter to execute them. After executing a command, Vim returns to Normal mode.
 
-Changing between modes / General
+**Changing between modes / General**
 
 `Esc`: Exit insert mode and return to normal mode
 
@@ -164,7 +164,7 @@ Changing between modes / General
 
 `:w`: Save changes
 
-Normal mode navigation:
+**Normal mode navigation:**
 
 `h`: Move cursor left
 
@@ -184,7 +184,7 @@ Normal mode navigation:
 
 `:n`: Move to a specific line number (replace "n" with the line number)
 
-Editing:
+**Editing:**
 
 `i`: Enter insert mode (insert before the cursor)
 
