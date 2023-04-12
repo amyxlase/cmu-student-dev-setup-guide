@@ -40,11 +40,15 @@ To use this python debugger, import ipdb at the top of your file and place this 
 
 Then run your script. Your script will run until this line is executed, and it will open an interactive interface where you can view runtime variables, execute helpful debugging functions, and save the state.
 
-C to continue
+`C` to continue running your code.
 
-N to next
+`N` to pause at the next line of code.
 
-S to step
+`S` to step into current function.
+
+`print(var)` to print a runtime variable.
+    
+`torch.save(tensor, fname)` to save a tensor to a file.
 
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/31298710/231563137-57ade5e4-0892-477b-a27b-f48a986d043d.png">
 
