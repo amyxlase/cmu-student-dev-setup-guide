@@ -84,37 +84,28 @@ If you do not have a .ssh folder, then you'll have to make one:
 
 
 
-1. `mkdir ~/.ssh`
-2. If you need to check if you have said folder, then run ls ~/.ssh
+1. Use a text editor on the file ~/.ssh/config
 
+Here are some potential configs
     Host cmu
-
-
     Hostname unix.andrew.cmu.edu
 
 
     Host ece
-
-
     ProxyCommand ssh -W %h:%p cmu
 
-
     Host ece ece.campus
-
-
     Hostname ece0XX.ece.local.cmu.edu
-
-
-    Host cmu ece ece.campus
-
-
     ForwardX11 yes
-
-
     ForwardX11Trusted yes
-
-
     User $ANDREWID
+    
+    Host shark_machine
+    HostName shark.ics.cs.cmu.edu
+    User fsacco
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials yes
+
     
     ![image](https://user-images.githubusercontent.com/31298710/231563032-0d03ac0c-7151-4476-a673-1af92857f2b0.png)
 
