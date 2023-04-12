@@ -1,10 +1,10 @@
-**Navigating the Command Line: A Primer for Incoming SCS and ECE Freshmen**
+# **Navigating the Command Line: A Primer for Incoming SCS and ECE Freshmen**
 
-**Preamble**
+# **Preamble**
 
 Incoming CMU students in CS, ECE, and IS might not be familiar with common terminal commands that are necessary to access and complete homework in technical courses. Students will need to SSH into the AFS, GHC, and Shark machines to access the tools provided by their courses to run and test their work. They must also use terminal commands to manage and navigate through their files. Finally, particular classes will suggest debugging tools, like the python debugger and GDB, which have their unique commands. This document will cover the most common commands that incoming students may need to learn.  
 
-**SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes)**
+# **SSH to AFS, GHC cluster machines, or Shark machines through Terminal (All Classes)**
 
 
 
@@ -16,7 +16,7 @@ Incoming CMU students in CS, ECE, and IS might not be familiar with common termi
     3. Shark: **ssh >andrewID>@shark.ics.cs.cmu.edu**
 3. Enter your Andrew password when prompted and press Enter. After a delay, you will be connected. 
 
-**GITHUB COMMANDS & PR REQUESTS**
+# **GITHUB COMMANDS & PR REQUESTS**
 
 Github is used as a source control tool. Students can upload their code, compare changes, and revert to specific snapshots of code. These are the basic commands that a student may need.
 
@@ -32,7 +32,7 @@ Github is used as a source control tool. Students can upload their code, compare
 * `git merge`: Merges changes from one branch into another.
 * `git status`: Shows the status of your local repository. This can be used to view your commits and changes. 
 
-**PYTHON DEBUGGER (15-281, 10-315)**
+# **PYTHON DEBUGGER (15-281, 10-315)**
 
 To use this python debugger, import ipdb at the top of your file and place this line where you would like to stop your code:
 
@@ -46,9 +46,9 @@ N to next
 
 S to step
 
-Type stuff to get their values & debug
+<img width="440" alt="image" src="https://user-images.githubusercontent.com/31298710/231563137-57ade5e4-0892-477b-a27b-f48a986d043d.png">
 
-**EXECUTING COMMON TERMINAL COMMANDS (All Classes)**
+# **EXECUTING COMMON TERMINAL COMMANDS (All Classes)**
 
 Most students use Windows or MacOS as their operating system, while the CMU machines all use Linux. This section provides a brief overview of commands that can be used on CMU’s machines to navigate and manage your homework files. 
 
@@ -65,7 +65,7 @@ Most students use Windows or MacOS as their operating system, while the CMU mach
 8. `grep`: Searches for a pattern in a file or directory. For example, `grep <pattern> <file-name>` will search for the specified pattern in the specified file.
 9. `ln -s <target> <source>`: Symlink one directory with another
 
-**SSH CONFIG (All Classes)**
+# **SSH CONFIG (All Classes)**
 
 If you have .ssh folder: 
 
@@ -111,9 +111,11 @@ If you do not have a .ssh folder, then you'll have to make one:
 
 
     User $ANDREWID
+    
+    ![image](https://user-images.githubusercontent.com/31298710/231563032-0d03ac0c-7151-4476-a673-1af92857f2b0.png)
 
 
-**BASHRC (All Classes)**
+# **BASHRC (All Classes)**
 
 The .bashrc or the .zshrc is a script file that is automatically run every time you open your shell. In this file, you can include helpful environment variables and aliases.
 
@@ -123,7 +125,7 @@ The .bashrc or the .zshrc is a script file that is automatically run every time 
 * To create an alias: alias name = “cd cat/dog && conda activate env”
 * To source the .bashrc: source ~/.bashrc
 
-**Using GDB: (All Classes)**
+# **Using GDB: (All Classes)**
 
 GDB is a debugger for the C language that can be used to track states in your code. Here are some basic GDB commands:
 
@@ -140,7 +142,7 @@ GDB is a debugger for the C language that can be used to track states in your co
 
 By following these steps and using these commands, you should be able to connect to the AFS and GHC SSH servers, execute common terminal commands, and use GDB for debugging. If you encounter any issues or have further questions, refer to the documentation of your specific technical course or seek assistance from your instructors or classmates.
 
-**vim: (All Classes)**
+# **vim: (All Classes)**
 
 Normal mode: In Normal mode, Vim is in its default state where you can navigate and manipulate text. You can move your cursor, delete, copy, paste, search, and replace text, among other operations. Normal mode is designed for efficient text editing and navigation without inserting or modifying text directly.
 
